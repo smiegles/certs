@@ -1,5 +1,5 @@
 
-require './lib/certs'
+require_relative './lib/certs'
 
 begin
   importer = Certs::Import.new(ARGV[0])
