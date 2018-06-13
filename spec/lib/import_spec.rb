@@ -22,12 +22,19 @@ describe Import do
 
   describe '.domains' do
 
-    let(:domains) { ['cs-stage-home02.qwilt.com', 'cs-stage-home02.op.qwilt.com'] }
+    let(:alternative_domains) { ['cs-stage-home02.qwilt.com', 'cs-stage-home02.op.qwilt.com'] }
+    let(:no_alternative_domains) { ['*.pype.tech'] }
 
-    it 'runs the file' do
+    it 'runs a file with alternative names' do
       import = Import.new('./spec/samples/alt_names_cert.der')
       import.run
-      expect(import.domains).to eq(domains)
+      expect(import.domains).to eq(alternative_domains)
+    end
+
+    it 'runs a file with no alternative names' do
+      import = Import.new('./spec/samples/cert.der')
+      import.run
+      expect(import.domains).to eq(no_alternative_domains)
     end
   end
 end
