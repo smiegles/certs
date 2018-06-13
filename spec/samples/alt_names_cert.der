@@ -1,0 +1,67 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products/CN=cs-stage-home02.qwilt.com/subjectAltName=DNS:cs-stage-home02.qwilt.com,DNS:cs-stage-home02.op.qwilt.com,IP:54.72.22.182
+   i:/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products/CN=Qwilt Support CA Q1
+-----BEGIN CERTIFICATE-----
+MIIEUzCCAzugAwIBAgICBbQwDQYJKoZIhvcNAQEFBQAwfzELMAkGA1UEBhMCVVMx
+EzARBgNVBAgTCkNhbGlmb3JuaWExEDAOBgNVBAcTB1JlZHdvb2QxEjAQBgNVBAoT
+CVF3aWx0IEluYzEXMBUGA1UECxMOUXdpbHQgUHJvZHVjdHMxHDAaBgNVBAMTE1F3
+aWx0IFN1cHBvcnQgQ0EgUTEwHhcNMTQwNDA4MTIzODA0WhcNMzgwMTE4MTIzODA0
+WjCB3jELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExEDAOBgNVBAcT
+B1JlZHdvb2QxEjAQBgNVBAoTCVF3aWx0IEluYzEXMBUGA1UECxMOUXdpbHQgUHJv
+ZHVjdHMxIjAgBgNVBAMTGWNzLXN0YWdlLWhvbWUwMi5xd2lsdC5jb20xVzBVBgNV
+HRETTkROUzpjcy1zdGFnZS1ob21lMDIucXdpbHQuY29tLEROUzpjcy1zdGFnZS1o
+b21lMDIub3AucXdpbHQuY29tLElQOjU0LjcyLjIyLjE4MjCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMpPfxprEMqPF4cuHiSJYxenol9q3P5RmzdKRW88
+ZN/9nm3O+yZ+ULKwA1ZOQc6wH9UbSTHpyl0FjsiDLj+L4ayrfVnsQZ1sOtYkCvD9
++jLePgkofMmdk+ujoAbNJbnfNQQzVN4OdAsej4sQlX+6EsRaczWcCUmeQqk0r9by
+E6+X2UarnYvzrewiosqCV7CWavtvKBCABfenkuIW6SJd/ekQTmbZ8BmtSbUV5C+1
+s9K8+HaKVC4SfMPhaZGYOv1M8v7mqesnYsIZGYqfkuZXNG0m1j3qcrBSK/qmjuhs
+QELqVG5901SB+Mkj9fqVgkzdPZY/5NCLqphdvCS5xCMsbH0CAwEAAaN5MHcwCQYD
+VR0TBAIwADAdBgNVHQ4EFgQUba3b4Rp3TIj34bwCd4g31t73YPQwHwYDVR0jBBgw
+FoAU5fcJSJxQPvnxzF/V0kdVhRmG3ygwCwYDVR0PBAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOCAQEAjzCU8jmTrHfg
+/Foobp0C1Nib1iTQXYN0dctdLItV9Qgf8MOY+I80zJysswO8hLuJo19iZYNPUsg7
+K92HcG6ZT9xq1U0ue+kx1SKIkEInXo9onZMzfxY0wcHldyCEdNO2YZ6mLBU1GPPC
+tPYAwhVV4SY7ziWrk6n+AtPh0ARmHHsK0Miy7OSxc0RUy1dOnyITflZHFFew2C1p
+XI9r2u/kuA/JNJl/J5JJcCDRi1GJLrkxn6pjh2xZEkMDS77KnMmcS92vXo3vuibx
+I9e76PLcQ4n5Oil7Nm0BtMcjXP/v9fgIX96Xcr2cCyGeKluXqV1qxDTogNFVgawy
+liwQ1eR5iA==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products/CN=cs-stage-home02.qwilt.com/subjectAltName=DNS:cs-stage-home02.qwilt.com,DNS:cs-stage-home02.op.qwilt.com,IP:54.72.22.182
+issuer=/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products/CN=Qwilt Support CA Q1
+---
+Acceptable client certificate CA names
+/CN=Qwilt Products CA Q1/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products
+/C=US/ST=California/L=Redwood/O=Qwilt Inc/OU=Qwilt Products/CN=Qwilt Device CA Q1
+Client Certificate Types: RSA fixed DH, DSS fixed DH, RSA sign, DSA sign, ECDSA sign
+Requested Signature Algorithms: RSA+SHA512:DSA+SHA512:ECDSA+SHA512:RSA+SHA384:DSA+SHA384:ECDSA+SHA384:RSA+SHA256:DSA+SHA256:ECDSA+SHA256:RSA+SHA224:DSA+SHA224:ECDSA+SHA224:RSA+SHA1:DSA+SHA1:ECDSA+SHA1:RSA+MD5
+Shared Requested Signature Algorithms: RSA+SHA512:DSA+SHA512:ECDSA+SHA512:RSA+SHA384:DSA+SHA384:ECDSA+SHA384:RSA+SHA256:DSA+SHA256:ECDSA+SHA256:RSA+SHA224:DSA+SHA224:ECDSA+SHA224:RSA+SHA1:DSA+SHA1:ECDSA+SHA1
+Peer signing digest: SHA512
+Server Temp Key: DH, 1024 bits
+---
+SSL handshake has read 2046 bytes and written 202 bytes
+---
+New, TLSv1/SSLv3, Cipher is DHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : DHE-RSA-AES256-GCM-SHA384
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: C805761735BC6980F2431950A5ADF9AE7BAFB270923377ACC1A92D17B0C84F2D4AEFDCF6E8CD44B463324A6E829BD5B4
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1528809846
+    Timeout   : 300 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---
